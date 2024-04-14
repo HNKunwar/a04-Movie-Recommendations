@@ -5,9 +5,6 @@
 - TheMovieDB API aka TMDB API
 - MediaWiki (Wikipedia) API
 
-#### Confession before we start: 
-
-I have committed a cardinal programmer sin and left API key(s) intact so that its one less step to preview [though there are screenshots below]. 
 
 #### Description: 
 

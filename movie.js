@@ -6,7 +6,7 @@ document.getElementById('back-button').addEventListener('click', () => {
   });
 
 async function fetchMovieDetails(movieId) {
-  const apiKey = '6e393cac728e481969b06bf7df594e41';
+  const apiKey = process.env.MOVIE_API_KEY;
   const apiUrl = 'https://api.themoviedb.org/3/';
   const response = await fetch(`${apiUrl}movie/${movieId}?api_key=${apiKey}&language=en-US&append_to_response=videos,credits,images`);
   return response.json();
