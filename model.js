@@ -1,4 +1,4 @@
-const apiKey = process.env.MOVIE_API_KEY;
+const apiKey = '7d94d40ee173cf65d6901779566190dc';
 const apiUrl = 'https://api.themoviedb.org/3/';
 
 async function fetchGenres() {
